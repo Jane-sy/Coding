@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:F:/db/test.db
+#    url: jdbc:sqlite::resource:db/test.db
+
+custom:
+  driverFolder: F:/db
